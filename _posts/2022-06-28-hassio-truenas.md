@@ -19,7 +19,7 @@ Como podemos observar la versión que tiene todas las funcionalidades que podemo
 
 Así que utilizaremos la capacidad de virtualización de TrueNAS Scale para crear una instancia de Home Assistant OS.
 
-## Instalando Home Assistant OS en TrueNAS Scale
+## Instalación
 Creamos un directorio en una de nuestras pools, en este caso voy a utilizar mi dataset vms:
 
 ![](https://i.imgur.com/E8Ic8dx.png)
