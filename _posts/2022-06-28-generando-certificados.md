@@ -85,8 +85,8 @@ openssl x509 -req -sha256 -days 365 -in cert.csr -CA ca.pem -CAkey ca-key.pem -o
     {: .prompt-info}
 
 
-    Copiar cert-key.pem
-    Copiar fullchaim.pem
+    <!-- Copiar cert-key.pem
+    Copiar fullchaim.pem -->
 
 <!-- ## Certificate Formats
 
