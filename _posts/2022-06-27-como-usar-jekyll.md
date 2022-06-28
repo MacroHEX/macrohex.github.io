@@ -1,7 +1,17 @@
 ---
 layout: post
-title:  "Configurando Jekyll"
+title:  "Conoce Jekyll - El Generador de Sitio Web Estático"
+categories: [self-hosted, jekyll, webpage]
+tags: [servers, web, cloud, self-hosted]
 ---
+
+![](https://miro.medium.com/max/1400/1*xhVXlPsI9x1zF4_mK5gFbw.png)
+
+Jekyll es una generador de sitio web estático que transforma texto plano en un bonito sitio web estático. Puede ser utilizado para un sitio de documentación, un blog, un sitio de evento, o básicamente para lo que quieras. Es rápido, seguro, fácil de utilizar y de código libre. 
+
+
+Deja tu ⭐ al repo de [jekyll](https://github.com/jekyll/jekyll) y el repo de [Chrirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy)
+
 
 ## Prerrequisitos
 
@@ -67,7 +77,7 @@ $ bundle exec jekyll s
 ## Creando una Publicación
 Jekyll sigue una nomenclatura para [nombrar las páginas y publicaciones](https://jekyllrb.com/docs/posts/)
 
-Crear un archivo en <span style="color:chocolate">_posts</span> con el formato:
+Crear un archivo en <span style="color:crimson">_posts</span> con el formato:
 
 AÑO-MES-DIA-TITULO.md
 
