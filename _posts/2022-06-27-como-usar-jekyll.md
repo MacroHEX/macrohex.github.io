@@ -20,6 +20,9 @@ Deja tu ⭐ al repo de [jekyll](https://github.com/jekyll/jekyll) y el repo de [
 * [GCC](https://gcc.gnu.org/install/)
 * [Make](https://www.gnu.org/software/make/)
 
+> Puedes realizarlo desde Windows utilizando el Subsistema de Windows para Linux [(WSL)](https://docs.microsoft.com/en-us/windows/wsl/install)
+{: .prompt-tip }
+
 
 ### Ubuntu/Debian
 ```bash
@@ -31,6 +34,9 @@ sudo apt-get install ruby-full build-essential zlib1g-dev
 Visita: [https://github.com/cotes2020/jekyll-theme-chirpy#quick-start](https://github.com/cotes2020/jekyll-theme-chirpy#quick-start)
 
 Tras crear un repositorio basado en la plantilla, clonamos el repositorio
+
+> Crea el repositorio siguiendo esta nomenclatura mi-usuario.github.io
+{: .prompt-tip }
 
 > No clonar el repositorio estando en super usuario.
 {: .prompt-tip }
@@ -59,6 +65,9 @@ git commit -m "Algunos cambios"
 git push
 ```
 
+> Para visualizar la web debemos cambiar una [configuración](#configurando-el-repositorio) en nuestro repo.
+{: .prompt-tip }
+
 ## Edición
 
 Utilicé VS Code con WSL
@@ -81,12 +90,13 @@ Crear un archivo en ``_posts`` con el formato:
 
 AÑO-MES-DIA-TITULO.md
 
-### Por ejemplo:
+Por ejemplo:
+
 2022-06-26-documentacion.md
 
 2022-06-30-pruebas.md
 
-> Verificar la fecha y hora, así como la zona horaría si no se ve la publicación.
+> Verificar la fecha y hora, así como la zona horaria si no se ve la publicación.
 {: .prompt-tip }
 
 ## Vinculando archivos locales
@@ -103,6 +113,17 @@ Vincular un archivo:
 ```md
 ... puedes [descargar el PDF](/assets/algo.pdf) aquí.
 ```
+
+## Configurando el Repositorio
+
+Antes de poder utilizar nuestro mi-usuario.github.io ingresamos en nuestro directorio y nos dirigmos a Settings>Pages y cambiamos la rama de main a gh-pages.
+
+![](https://i.imgur.com/c9zONVS.png)
+
+Guardamos y ya podremos ver nuestra página con github pages.
+
+Ejemplo: [``https://macrohex.github.io/``](https://macrohex.github.io/)
+
 
 ## Ejemplos de Markdown
 Si queremos ayuda con el markdown, revisa la [tabla](https://www.markdownguide.org/cheat-sheet/)
