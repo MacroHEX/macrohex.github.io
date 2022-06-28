@@ -77,7 +77,7 @@ $ bundle exec jekyll s
 ## Creando una Publicación
 Jekyll sigue una nomenclatura para [nombrar las páginas y publicaciones](https://jekyllrb.com/docs/posts/)
 
-Crear un archivo en <span style="color:crimson">_posts</span> con el formato:
+Crear un archivo en ``_posts`` con el formato:
 
 AÑO-MES-DIA-TITULO.md
 
