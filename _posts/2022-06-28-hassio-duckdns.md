@@ -15,7 +15,7 @@ El servicio de DDNS asocia nuestra IP pública a un dominio. De esta forma podem
 ## Preparación
 
 Nos logueamos en Duck DNS utilizando cualquiera de los métodos disponibles.
-![](https://i.imgur.com/XoRA6Tm.png)
+![](https://i.imgur.com/Wml17S8.png)
 
 Ahora necesitamos realizar el port forwarding para poder ver nuestra instancia de Home Assistant en Internet.
 
