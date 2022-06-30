@@ -80,7 +80,7 @@ code .
 Inicializar el servidor local
 
 ``` bash
-$ bundle exec jekyll s
+bundle exec jekyll s
 ```
 
 ## Creando una Publicación
