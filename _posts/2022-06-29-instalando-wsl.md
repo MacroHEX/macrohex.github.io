@@ -45,7 +45,7 @@ Realizaremos la instalación de todo lo que necesitamos por medio de PowerShell 
 
 #### PowerShell
 ```powershell
-wls --install
+wsl --install
 ```
 
 Este comando habilitará los componentes opcionales necesarios, descargará el kernel de Linux más reciente, establecerá WSL 2 como predeterminado e instalará una distribución de Linux automáticamente (Ubuntu de forma predeterminada).
