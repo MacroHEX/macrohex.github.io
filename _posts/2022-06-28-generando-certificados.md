@@ -88,17 +88,16 @@ openssl x509 -req -sha256 -days 365 -in cert.csr -CA ca.pem -CAkey ca-key.pem -o
     <!-- Copiar cert-key.pem
     Copiar fullchaim.pem -->
 
-<!-- ## Certificate Formats
+## Formatos de Certificados
+Los Certificados X.509 existen en los Formatos Base64 **PEM (.pem, .crt, .ca-bundle)**, **PKCS#7 (.p7b, p7s)** y Formatos Binarios **DER (.der, .cer)**, **PKCS#12 (.pfx, p12)**.
 
-X.509 Certificates exist in Base64 Formats **PEM (.pem, .crt, .ca-bundle)**, **PKCS#7 (.p7b, p7s)** and Binary Formats **DER (.der, .cer)**, **PKCS#12 (.pfx, p12)**.
+### Conversión de Certificados
 
-### Convert Certs
-
-COMMAND | CONVERSION
+COMANDO | CONVERSIÓN
 ---|---
-`openssl x509 -outform der -in cert.pem -out cert.der` | PEM to DER
-`openssl x509 -inform der -in cert.der -out cert.pem` | DER to PEM
-`openssl pkcs12 -in cert.pfx -out cert.pem -nodes` | PFX to PEM -->
+`openssl x509 -outform der -in cert.pem -out cert.der` | PEM a DER
+`openssl x509 -inform der -in cert.der -out cert.pem` | DER a PEM
+`openssl pkcs12 -in cert.pfx -out cert.pem -nodes` | PFX a PEM
 
 ## Verificar Certificados
 ```bash
@@ -168,5 +167,5 @@ Los pasos exactos cambian entre dispositivos, aquí va una guía generalizada:
 6. Seleccionarlo.
 7. Listo!
 
-> Tengo mi teléfono en inglés así que no se como son las opciones en español :3
+> Tengo mi teléfono en inglés así que no se como son las opciones en español.
 {: .prompt-info}
