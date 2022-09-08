@@ -21,3 +21,4 @@ package-lock.json
 
 # Servidor local
 run_server.sh
+server.sh
